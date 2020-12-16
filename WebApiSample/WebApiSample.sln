@@ -7,17 +7,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{4E
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Melsoft.Database", "Melsoft.Database\Melsoft.Database.sqlproj", "{82E6A5DC-165E-4E1B-8318-302CDB16B011}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Melsoft.DataProvider", "Melsoft.DataProvider\Melsoft.DataProvider.csproj", "{0201EA84-C1C8-43CA-8C48-54C5A492F5C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Melsoft.DataProvider", "Melsoft.DataProvider\Melsoft.DataProvider.csproj", "{0201EA84-C1C8-43CA-8C48-54C5A492F5C0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{703F572E-6D90-40EC-BEA5-A4EF494EE329}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Melsoft.Managers.Tests", "Melsoft.Managers.Tests\Melsoft.Managers.Tests.csproj", "{FB3CA17D-8088-46C0-84B5-17ACA154428E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Melsoft.Managers.Tests", "Melsoft.Managers.Tests\Melsoft.Managers.Tests.csproj", "{FB3CA17D-8088-46C0-84B5-17ACA154428E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Melsoft.Interfaces", "Melsoft.Interfaces\Melsoft.Interfaces.csproj", "{2CBE8AC7-6D5C-4595-8FA7-F17CF0B46E0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Melsoft.Interfaces", "Melsoft.Interfaces\Melsoft.Interfaces.csproj", "{2CBE8AC7-6D5C-4595-8FA7-F17CF0B46E0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Melsoft.Managers", "Melsoft.Managers\Melsoft.Managers.csproj", "{FC9796C2-D637-437A-8FD9-3C50E9651455}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Melsoft.Managers", "Melsoft.Managers\Melsoft.Managers.csproj", "{FC9796C2-D637-437A-8FD9-3C50E9651455}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Melsoft.Models", "Melsoft.Models\Melsoft.Models.csproj", "{5E213C77-7404-4FE6-B61D-D8CA6A878A09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Melsoft.Models", "Melsoft.Models\Melsoft.Models.csproj", "{5E213C77-7404-4FE6-B61D-D8CA6A878A09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Melsoft.Services", "Melsoft.Services\Melsoft.Services.csproj", "{126874D8-5D1E-4DB1-A43B-492667855AD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Melsoft.Services.Tests", "Melsoft.Services.Tests\Melsoft.Services.Tests.csproj", "{910AF3B1-25BE-4F2A-9B57-4C279C76A2BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Melsoft.WebAPI", "Melsoft.WebAPI\Melsoft.WebAPI.csproj", "{3AAFEBC8-6D28-4DCA-BB16-E10B0B486251}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{5E213C77-7404-4FE6-B61D-D8CA6A878A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E213C77-7404-4FE6-B61D-D8CA6A878A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E213C77-7404-4FE6-B61D-D8CA6A878A09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{126874D8-5D1E-4DB1-A43B-492667855AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{126874D8-5D1E-4DB1-A43B-492667855AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{126874D8-5D1E-4DB1-A43B-492667855AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{126874D8-5D1E-4DB1-A43B-492667855AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{910AF3B1-25BE-4F2A-9B57-4C279C76A2BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910AF3B1-25BE-4F2A-9B57-4C279C76A2BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910AF3B1-25BE-4F2A-9B57-4C279C76A2BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910AF3B1-25BE-4F2A-9B57-4C279C76A2BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AAFEBC8-6D28-4DCA-BB16-E10B0B486251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AAFEBC8-6D28-4DCA-BB16-E10B0B486251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AAFEBC8-6D28-4DCA-BB16-E10B0B486251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AAFEBC8-6D28-4DCA-BB16-E10B0B486251}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +76,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{82E6A5DC-165E-4E1B-8318-302CDB16B011} = {4E23DCF7-7AC4-4C31-BA57-6F14955A0002}
 		{FB3CA17D-8088-46C0-84B5-17ACA154428E} = {703F572E-6D90-40EC-BEA5-A4EF494EE329}
+		{910AF3B1-25BE-4F2A-9B57-4C279C76A2BF} = {703F572E-6D90-40EC-BEA5-A4EF494EE329}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5178F4C7-1137-4F97-A899-4EE3BB181A5C}

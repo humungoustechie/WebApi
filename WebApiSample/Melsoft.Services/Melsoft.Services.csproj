@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Melsoft.Interfaces\Melsoft.Interfaces.csproj" />
+		<ProjectReference Include="..\Melsoft.Managers\Melsoft.Managers.csproj" />
+		<ProjectReference Include="..\Melsoft.Models\Melsoft.Models.csproj" />
+	</ItemGroup>
+</Project>

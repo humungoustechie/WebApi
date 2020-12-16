@@ -2,6 +2,7 @@
 using Melsoft.Interfaces.Managers;
 using Melsoft.Models;
 using System;
+using System.Linq;
 
 namespace Melsoft.Managers
 {
@@ -38,6 +39,18 @@ namespace Melsoft.Managers
 
             newUser.Id = dbUser.Id;
             return newUser;
+        }
+
+        ///<see cref="IUserManager.EmailAlreadyExists(string)"/>
+        public bool EmailAlreadyExists(string email)
+        {
+            return dataContext.Users.Any(x => x.Email.ToLower().Equals(email.ToLower()));
+        }
+
+        ///<see cref="IUserManager.UserNameAlreadyExists(string)"/>
+        public bool UserNameAlreadyExists(string userName)
+        {
+            return dataContext.Users.Any(x => x.Username.ToLower().Equals(userName.ToLower()));
         }
     }
 }

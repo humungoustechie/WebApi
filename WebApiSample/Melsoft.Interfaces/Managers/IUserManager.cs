@@ -13,5 +13,19 @@ namespace Melsoft.Interfaces.Managers
         /// <param name="newUser"></param>
         /// <returns></returns>
         User CreateUser(User newUser);
+
+        /// <summary>
+        /// Check if the username is already used
+        /// </summary>
+        /// <param name="userName"></param>
+        /// <returns></returns>
+        bool UserNameAlreadyExists(string userName);
+
+        /// <summary>
+        /// Check if the email is already used
+        /// </summary>
+        /// <param name="userName"></param>
+        /// <returns></returns>
+        bool EmailAlreadyExists(string email);
     }
 }
